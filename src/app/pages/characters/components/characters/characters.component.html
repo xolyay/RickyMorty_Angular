@@ -1,0 +1,6 @@
+<div class="display" *ngIf="charactersList">
+    <div *ngFor="let character of charactersList" class="display__styles" routerLink="{{character.id}}">
+        <h2>{{ character.name}} </h2>
+        <img src="{{character.image}}" alt="{{character.name}}">
+    </div>
+ </div>

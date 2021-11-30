@@ -1,0 +1,9 @@
+
+
+<div *ngIf="locationsList" class="">
+    <h1>LOCATIONS</h1>
+    <div *ngFor="let locations of locationsList" class="locations-styles" routerLink="{{locations.id}}">
+        <h2> {{ locations.name}} </h2>
+        <h3> {{ locations.dimension }} </h3>
+    </div>
+ </div>

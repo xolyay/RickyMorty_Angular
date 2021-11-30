@@ -1,0 +1,23 @@
+
+.home{
+
+   
+    width:100%;
+    height: 100%;
+    
+    
+   &__animation{
+
+    display: flex;
+    justify-content: center;
+    
+
+    &__max{
+        width: 80%;
+        height: 800px;
+    }
+   }
+
+}
+
+
